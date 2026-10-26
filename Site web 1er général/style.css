@@ -1,0 +1,127 @@
+h1{
+    text-align: center;
+    color: darkviolet;
+    top: 20px;
+    position: relative;
+
+}
+
+h3
+{
+    color: darkslateblue;
+    text-align: center;
+    top: 45px;
+    position: relative;
+}
+
+body {
+    background: #333;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* intérieur quiz */
+.app
+{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.quiz
+{
+    padding: 20px 0;
+}
+
+.quiz h2
+{
+    font-size: 18px;
+    color: darkslateblue;
+    font-weight: 600;
+}
+
+
+
+/* mise en forme des questions */
+
+.button
+{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button:hover:not([disabled])
+{
+    background: #222;
+    color: #fff;
+}
+
+.button:disabled
+{
+    cursor: no-drop;
+}
+
+/* bouton pour passer à la question suivante */
+
+#next-btn
+{
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+/* change la couleur de la question sélectionné
+   selon si la réponse est vrai ou non */
+
+.correct
+{
+    background: #a1ea9a;
+}
+
+.incorrect
+{
+    background: #ff0000;
+}
+
+/*barre de progression*/
+
+.progress-bar {
+    width: 540px;
+    height: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4951f5;
+    width: 0;
+    transition: width 0.5s ease;
+  }
+
