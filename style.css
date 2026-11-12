@@ -1,0 +1,9 @@
+body {
+    color: lightslategray;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+}
